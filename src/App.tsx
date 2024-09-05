@@ -4,6 +4,8 @@ import "./App.css";
 import Contact from "./components/Contact";
 import Home from "./pages/Home";
 import Project from "./pages/Proyectos";
+import Experiencia from "./pages/Experiencia";
+import Estudios from "./pages/Estudios";
 
 function App() {
 	return (
@@ -14,13 +16,21 @@ function App() {
 						path="/portfolio/"
 						element={<Home />}
 					/>
-          <Route
+					<Route
 						path="/portfolio/proyectos"
 						element={<Project />}
 					/>
+					<Route
+						path="/portfolio/experiencia"
+						element={<Experiencia />}
+					/>
+					<Route
+						path="/portfolio/estudios"
+						element={<Estudios />}
+					/>
 				</Routes>
 			</BrowserRouter>
-			{/* <Outlet/> */}
+
 			<Contact />
 		</>
 	);

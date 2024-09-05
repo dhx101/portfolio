@@ -1,8 +1,5 @@
 .card {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%); /* Centra la .card en ambos ejes */
+	
 	padding: 5rem;
 	display: flex;
 	justify-content: center;
@@ -30,10 +27,12 @@
 	}
 	&__link {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-around;
 		align-items: center;
+		gap: 10px;
 		width: 100%;
-		height: 100px;
+		height: fit-content;
 		padding: 0;
 		&__item {
 			transition: 250ms;
@@ -85,6 +84,8 @@
 		flex-direction: column-reverse;
 		gap: 0;
 		padding: 1rem;
+		width: 100%;
+		height: 100vh;
 		&__h1 {
 			&__info {
 				gap: 1rem;
@@ -96,8 +97,10 @@
 		}
 		@media only screen and (max-width: 768px) {
 			padding: 0.5rem;
+			height: fit-content;
+			margin-bottom: 75px;
 			&__info {
-				gap: 0rem;
+				gap: 1rem;
 			}
 			&__h1 {
 				font-size: 2rem;

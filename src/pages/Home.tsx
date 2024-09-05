@@ -49,6 +49,24 @@ const Home = () => {
 							<p>Proyectos</p>
 						</Link>
 					</li>
+					<li className="card__link__item">
+						<Link to={"/portfolio/experiencia"}>
+							<img
+								src="work.svg"
+								alt="Proyectos"
+							/>
+							<p>Experiencia</p>
+						</Link>
+					</li>
+					<li className="card__link__item">
+						<Link to={"/portfolio/estudios"}>
+							<img
+								src="academy.svg"
+								alt="Proyectos"
+							/>
+							<p>Estudios</p>
+						</Link>
+					</li>
 				</ul>
 			</div>
 			<div className="card__photo">

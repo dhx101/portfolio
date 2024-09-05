@@ -1,25 +1,13 @@
 import json from "../jsons/projects.json";
-import { Link } from "react-router-dom";
 import SingleProject from "../components/SingleProject";
+import Header from "../components/Header";
 
 const Project = () => {
 	// console.log(json.proyecto);
 	const proyectoArray = json.proyecto;
 	return (
 		<div className="projects">
-			<div className="projects__header">
-				<h1>Proyectos</h1>
-				<nav>
-					<ul>
-						<li>
-							<Link to={"/portfolio/"}>Home </Link>
-						</li>
-						<li>
-							<Link to={"/portfolio/proyectos/"}>Proyectos </Link>
-						</li>
-					</ul>
-				</nav>
-			</div>
+			<Header title="Proyectos"/>
 			<div className="projects__elements">
 				<h2>Ultimos Proyectos</h2>
 				<p>Visitas las ultimas web y proyectos en las que he trabajado</p>
