@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Home = () => {
-  return (
-    <div className="card">
+	return (
+		<div className="card">
 			<div className="card__info">
 				<div>
 					<h1 className="card__h1">David Huang Xie</h1>
@@ -18,17 +18,6 @@ const Home = () => {
 					diferentes CMS como Wordpress ¡Trabajemos juntos si te gusta lo que ves!
 				</p>
 				<ul className="card__link">
-					<li className="card__link__item">
-						<a
-							href="https://www.linkedin.com/in/dhuangxie/"
-							target="_blank">
-							<img
-								src="linkedin.svg"
-								alt="Linkedin"
-							/>
-							<p>Linkedin</p>
-						</a>
-					</li>
 					<li className="card__link__item">
 						<a
 							href="https://github.com/dhx101"
@@ -70,7 +59,7 @@ const Home = () => {
 				/>
 			</div>
 		</div>
-  )
-}
+	);
+};
 
-export default Home
+export default Home;

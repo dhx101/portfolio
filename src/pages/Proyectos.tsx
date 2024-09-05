@@ -1,8 +1,6 @@
-
 import json from "../jsons/projects.json";
 import { Link } from "react-router-dom";
 import SingleProject from "../components/SingleProject";
-
 
 const Project = () => {
 	// console.log(json.proyecto);
@@ -17,7 +15,7 @@ const Project = () => {
 							<Link to={"/portfolio/"}>Home </Link>
 						</li>
 						<li>
-							<Link to={"/portfolio/proyectos"}>Proyectos </Link>
+							<Link to={"/portfolio/proyectos/"}>Proyectos </Link>
 						</li>
 					</ul>
 				</nav>
@@ -30,6 +28,7 @@ const Project = () => {
 						<SingleProject
 							key={index}
 							project={item}
+							style={{ animationDelay: `${index * 0.1}s` }}
 						/>
 					))}
 				</ul>

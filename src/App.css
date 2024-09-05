@@ -162,6 +162,10 @@
   }
 }
 .projects__items__single {
+  opacity: 0;
+  animation: scaleUp 0.5s ease-out forwards;
+  /* Add additional styling for the card */
+  transition: transform 0.5s ease-out;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -201,6 +205,16 @@
   width: 50px;
 }
 
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.5); /* Start at 50% of the original size */
+    opacity: 0; /* Start with 0 opacity */
+  }
+  100% {
+    transform: scale(1); /* End at 100% of the original size */
+    opacity: 1; /* End with full opacity */
+  }
+}
 .contact {
   position: fixed;
   bottom: 0;
