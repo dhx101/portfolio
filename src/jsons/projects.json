@@ -1,0 +1,91 @@
+{
+	"proyecto": [
+		{
+			"name": "TeleSketch",
+			"img": "Telesketch.jpg",
+			"alt": "Pizzara Mágica TeleSketch",
+			"miniDescription": "Apliación de TeleSketch, es una pizarra donde puedes pintar haciendo Click y arrastrando, puedes elegir varios colores y cambiar el tamaño del Linenzo, se ha creado usando HTML, Javascript y CSS.",
+			"stack": ["HTML", "JS", "CSS"]
+		},
+		{
+			"name": "TeleSketch",
+			"img": "Telesketch.jpg",
+			"alt": "Pizzara Mágica TeleSketch",
+			"miniDescription": "Apliación de TeleSketch, es una pizarra donde puedes pintar haciendo Click y arrastrando, puedes elegir varios colores y cambiar el tamaño del Linenzo, se ha creado usando HTML, Javascript y CSS.",
+			"stack": ["HTML", "JS", "CSS"],
+			"link": "https://dhx101.github.io/pokedex/"
+		},
+		{
+			"name": "Pokedex",
+			"img": "Pokedex.png",
+			"alt": "Pokedex",
+			"miniDescription": "Aplicación de Pokedex, donde te muestran los pokemon de las diferentes generaciones, a su vez tambien puedes ordenar por tipos. La apliación fue creada con HTML, Javascript y SCSS con una metodología BEM, los pokemons provienen de una API de PokeApi.co donde realizamos un fetch de los contenidos necesarios para despues crearlos en nuestro DOM",
+			"stack": ["HTML", "JS", "SCSS"],
+			"link": "https://dhx101.github.io/pokedex/"
+		},
+		{
+			"name": "Ortoinnova",
+			"img": "Ortoinnova.png",
+			"alt": "Ortoinnova centro Ortopédico",
+			"miniDescription": "Centro ortopédico de Málaga que necesitaban una nueva web ya que la antigua la perdieron, el diseño y maqueteda fue hecho por mi mediante Wordpress y Elementor.",
+			"stack": ["Wordpress", "Elementor"],
+			"link": "https://www.ortoinnova.com/"
+		},
+		{
+			"name": "Fairloc",
+			"img": "Fairloc.png",
+			"alt": "Fairloc",
+			"miniDescription": "Agencia de traducción quienes necesitaban una web donde mostrar la información de la empresa, diseñada y maquetada por mi en Wordpress y Elementor",
+			"stack": ["Wordpress", "Elementor"],
+			"link": "https://www.mariareyestetica.com/"
+		},
+		{
+			"name": "Comercial Malagueña del Rótulo",
+			"img": "CMR.png",
+			"alt": "Comercial Malagueña del Rótulo",
+			"miniDescription": "Comercial Malagueña especializada en la venta de Rótulos Luminosos y materiales de alta calidad, diseñada y maquetada por mi en Wordpress Y Elementor",
+			"stack": ["Wordpress", "Elementor"],
+			"link": "https://www.mariareyestetica.com/"
+		},
+		{
+			"name": "Maria Rey Estetica",
+			"img": "Mariareyestetica.png",
+			"alt": "Maria Rey Estetica Centro Cosmética",
+			"miniDescription": "Centro estética de Marbella, la cliente queria una web donde pudiese vender sus productos, se diseñó y maquetó por mi la web utilizando Wordpress junto a Elementor, la tienda se creó utilizando Woocomerce.",
+			"stack": ["Wordpress", "Elementor", "Woocomerce"],
+			"link": "https://www.mariareyestetica.com/"
+		},
+		{
+			"name": "Ruabella",
+			"img": "Ruabella.png",
+			"alt": "Ruabella Consulting",
+			"miniDescription": "Agencia de promociones inmobiliarias de Málaga, diseñada y maquetada por mi mediante Wordpress y Elementor.",
+			"stack": ["Wordpress", "Elementor"],
+			"link": "https://ruabella.com/"
+		},
+		{
+			"name": "Total Logistic",
+			"img": "TotalLogistic.png",
+			"alt": "Total Logistic Group",
+			"miniDescription": "Empresa de Logística quienes necesitaban maquetar una web antigua que perdieron, el diseño era antiguo y  maquetada por mi usando Wordpress y Elementor",
+			"stack": ["Wordpress", "Elementor"],
+			"link": "https://www.totalproject.site/"
+		},
+		{
+			"name": "Oversattningsbyra",
+			"img": "Oversattningsbyra.png",
+			"alt": "Oversattningsbyra",
+			"miniDescription": "Agencia de traducción Nordica quienes necesitaban maquetar una Landing Page para la clienta, diseño del cliente maquetado por mi en Wordpress y Elementor",
+			"stack": ["Wordpress", "Elementor"],
+			"link": "https://www.oversattningsbyra.io/"
+		},
+		{
+			"name": "Psicología Levy",
+			"img": "PsicologiaLevy.png",
+			"alt": "Centro de Psicología Levy",
+			"miniDescription": "Centro de Psicología en Málaga centro, necesitaban una web, diseño realizado por una diseñadora maquetado por mi mediante Wordpress y Elementor",
+			"stack": ["Wordpress", "Elementor"],
+			"link": "https://psicologialevy.com/"
+		}
+	]
+}
