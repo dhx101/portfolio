@@ -9,7 +9,7 @@ const Menu = () => {
 						<Link to={"/portfolio/"}>Home </Link>
 					</li>
 					<li>
-						<Link to={"/portfolio/proyectos/"}>Proyectos </Link>
+						<Link to={"/portfolio/proyectos"}>Proyectos </Link>
 					</li>
                     <li>
                         <Link to={"/portfolio/experiencia"}>Experiencia</Link>
