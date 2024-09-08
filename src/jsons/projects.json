@@ -97,6 +97,14 @@
 			"link": "https://www.oversattningsbyra.io/"
 		},
 		{
+			"name": "Jurado Abogados",
+			"img": "JuradoAbogados.png",
+			"alt": "Web Jurados Abogados, despacho de abogados en Málaga",
+			"miniDescription": "Web para un despacho de abogados situado enm Torre del Mar Málaga, se trata de una web la cual fue diseñada por mi y maquetada en Wordpress con Elementor.",
+			"stack": ["Wordpress", "Elementor"],
+			"link": "https://www.juradoabogadosweb.com/"
+		},
+		{
 			"name": "Psicología Levy",
 			"img": "PsicologiaLevy.png",
 			"alt": "Web Centro de Psicología Levy",
