@@ -115,6 +115,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin-bottom: 75px;
 }
 .projects__elements {
   margin: 0;
@@ -170,7 +171,8 @@
 }
 .projects__items__single p {
   font-weight: 500;
-  color: rgb(71, 71, 71);
+  color: black;
+  text-align: justify;
 }
 .projects__items__single > img {
   width: 100%;
@@ -309,6 +311,7 @@
   flex-direction: column;
   gap: 2rem;
   margin: 5%;
+  margin-bottom: 75px;
 }
 .exp__list__item {
   display: flex;
@@ -359,6 +362,7 @@
   flex-direction: column;
   gap: 15px;
   font-weight: 700;
+  text-align: justify;
 }
 .exp__list__item__description ul li {
   list-style: disc;
@@ -373,7 +377,56 @@
   .exp__list__item img {
     min-width: 200px;
   }
-  .exp__list__item h2, .exp__list__item a {
+  .exp__list__item h2,
+  .exp__list__item a {
     text-align: center;
+  }
+}
+.studies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 5%;
+  margin-bottom: 75px;
+}
+.studies__item {
+  opacity: 0;
+  animation: scaleUp 0.5s ease-out forwards;
+  transition: transform 0.5s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border-radius: 30px;
+  width: 80vw;
+  overflow: hidden;
+  padding: 1rem;
+  color: black;
+}
+.studies__item__degree {
+  text-align: center;
+}
+.studies__item__degree p {
+  font-weight: 700;
+}
+.studies__item__description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem;
+  font-weight: 700;
+  text-align: justify;
+}
+.studies img {
+  max-width: 400px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1440px) {
+  .studies__item__description {
+    padding: 1rem;
   }
 }/*# sourceMappingURL=App.css.map */

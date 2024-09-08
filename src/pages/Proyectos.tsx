@@ -4,7 +4,7 @@ import Header from "../components/Header";
 
 const Project = () => {
 	// console.log(json.proyecto);
-	const proyectoArray = json.proyecto;
+	const proyectoArray = json;
 	return (
 		<div className="projects">
 			<Header title="Proyectos"/>
