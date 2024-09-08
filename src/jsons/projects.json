@@ -25,6 +25,14 @@
 			"link": ""
 		},
 		{
+			"name": "Piedra Papel Tijeras",
+			"img": "PiedraPapelTijeras.png",
+			"alt": "Web para jugar a Piedra Papel Tijeras",
+			"miniDescription": "Juego Piedra papel tijeras creado con Javascript, toda la lógica se encuentra en el JS, se ha utilziado HTMly un CSS básico, te permite ver cuantas veces has ganado en un Scoreboard",
+			"stack": ["HTML", "JS", "CSS"],
+			"link": "https://dhx101.github.io/Telesketch/"
+		},
+		{
 			"name": "TeleSketch",
 			"img": "Telesketch.png",
 			"alt": "Web Pizzara Mágica TeleSketch",

@@ -5,9 +5,8 @@
 		gap: 2rem;
 		margin: 5%;
 		&__item {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
+			display: flex;
+			gap: 5rem;
 			background-color: white;
 			color: black;
 			padding: 5rem;
@@ -16,30 +15,66 @@
 			animation: scaleUp 0.5s ease-out forwards;
 			/* Add additional styling for the card */
 			transition: transform 0.5s ease-out;
-			&__important {
-				display: grid;
-                grid-template-columns: repeat(2, 1fr);
 
-				justify-items: center;
+			&__important {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
 				align-items: center;
-				text-align: center;
+				gap: 2rem;
 				h2 {
 					font-size: xx-large;
 				}
-                div {
-                    display: flex;
-                    flex-direction: column;
-                    gap: 1rem;
-                }
+				> div {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					gap: 1rem;
+				}
+				a {
+					transition: 250ms;
+					font-weight: 700;
+					color: #00878b;
+					&:hover {
+						transform: scale(1.1);
+						color: black;
+					}
+				}
+				img {
+					padding: 25px;
+					border: 1px solid black;
+					width: 100%;
+					min-width: 400px;
+				}
 			}
-			img {
-				padding: 25px;
-				border: 1px solid black;
-				width: 250px;
+			&__description {
+				display: flex;
+				flex-direction: column;
+				gap: 15px;
+				font-weight: 700;
+				ul {
+					li {
+						list-style: disc;
+					}
+				}
 			}
-			ul {
-				li {
-					list-style: disc;
+		}
+	}
+}
+
+@media only screen and (max-width: 1440px) {
+	.exp {
+		&__list {
+			&__item {
+				flex-direction: column;
+				padding: 3rem;
+				gap: 3rem;
+				img {
+					min-width: 200px;
+				}
+				h2, a {
+					text-align: center;
 				}
 			}
 		}
