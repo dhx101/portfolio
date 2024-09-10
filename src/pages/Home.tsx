@@ -31,7 +31,7 @@ const Home = () => {
 					</li>
 					<li className="card__link__item">
 						<a
-							href="Curriculum.pdf"
+							href="Curriculum ES.pdf"
 							download={"CV David Huang Xie.pdf"}>
 							<img
 								src="resume.svg"
