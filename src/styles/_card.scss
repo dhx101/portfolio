@@ -10,7 +10,16 @@
 	width: 80vw;
 	text-align: center;
 	margin: auto;
-
+	a {
+		color: white;
+		font-weight: 700;
+		&:hover {
+			color: white;
+		}
+		&:visited {
+			color: white;
+		}
+	}
 	&__h1 {
 		padding: 0;
 	}
@@ -41,16 +50,7 @@
 			img {
 				width: 75px;
 			}
-			a {
-				color: white;
-
-				&:hover {
-					color: white;
-				}
-				&:visited {
-					color: white;
-				}
-			}
+			
 		}
 	}
 	&__photo {

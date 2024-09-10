@@ -12,6 +12,16 @@
   text-align: center;
   margin: auto;
 }
+.card a {
+  color: white;
+  font-weight: 700;
+}
+.card a:hover {
+  color: white;
+}
+.card a:visited {
+  color: white;
+}
 .card__h1 {
   padding: 0;
 }
@@ -44,15 +54,6 @@
 }
 .card__link__item img {
   width: 75px;
-}
-.card__link__item a {
-  color: white;
-}
-.card__link__item a:hover {
-  color: white;
-}
-.card__link__item a:visited {
-  color: white;
 }
 .card__photo {
   width: 25%;
