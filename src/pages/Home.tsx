@@ -15,7 +15,7 @@ const Home = () => {
 					CSS, Javascript y Frameworks como React. Me especializo en el maquetado de las web y el
 					diseño funcional de estas, creando asi una web funcionl y optimizada para el usuario y
 					cliente. También tengo experiencia en la creación y mantenimiento de webs utilizando
-					diferentes CMS como Wordpress ¡Trabajemos juntos si te gusta lo que ves!
+					diferentes CMS como Wordpress ¡Trabajemos juntos si te gusta lo que ves! Contacta conmigo a traves de {<a href="https://www.linkedin.com/in/dhuangxie/" target="_blank">Linkedin</a>} o mediante mi {<a href="mailto:dhuangxie@gmail.com" target="_blank">correo electrónico</a>}
 				</p>
 				<ul className="card__link">
 					<li className="card__link__item">
