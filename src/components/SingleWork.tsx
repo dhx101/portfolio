@@ -18,13 +18,13 @@ const SingleWork: React.FC<WorkProps> = ({ workplace, style }) => {
 			<div className="exp__list__item__important">
 				<h2>{workplace.position}</h2>
 				<div>
-					<a href={workplace.link}>
+					<a href={workplace.link} target="_blank">
 						<img
 							src={workplace.img}
 							alt={workplace.company}
 						/>
 					</a>
-					<a href={workplace.link}>{workplace.company}</a>
+					<a href={workplace.link} target="_blank">{workplace.company}</a>
 				</div>
 			</div>
 

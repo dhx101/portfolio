@@ -15,7 +15,7 @@ const Contact = () => {
 						¡Sígueme en Linkedin para conectar conmigo!
 					</p>
 				</li>
-				<li>
+				{/* <li>
 					<a
 						className="contact__links--phone"
 						href="tel:655966777">
@@ -25,7 +25,7 @@ const Contact = () => {
 						/>
 					</a>
 					<p className="contact__info contact__info--phone">Llámame al 655966777</p>
-				</li>
+				</li> */}
 				<li>
 					<a
 						className="contact__links--email"

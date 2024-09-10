@@ -124,6 +124,16 @@
   flex-direction: column;
   gap: 2rem;
 }
+.projects__elements h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: min(10vw, 50px);
+}
+.projects__elements p {
+  text-align: center;
+  font-weight: 400;
+  font-size: min(6vw, 20px);
+}
 .projects__items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -306,11 +316,22 @@
   font-weight: bold;
 }
 
+.exp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+.exp > p {
+  text-align: center;
+  font-weight: 700;
+  font-size: min(10vw, 50px);
+}
 .exp__list {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin: 5%;
+  margin: 0 5%;
   margin-bottom: 75px;
 }
 .exp__list__item {
@@ -367,6 +388,36 @@
 .exp__list__item__description ul li {
   list-style: disc;
 }
+.exp__stack {
+  margin: 0 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.exp__stack__item {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 30px;
+  color: black;
+  font-weight: 700;
+  opacity: 0;
+  animation: scaleUp 0.5s ease-out forwards;
+  /* Add additional styling for the card */
+  transition: transform 0.5s ease-out;
+  min-width: 250px;
+}
+.exp__stack__item img {
+  width: 50px;
+  border-radius: 5px;
+}
 
 @media only screen and (max-width: 1440px) {
   .exp__list__item {
@@ -382,6 +433,22 @@
     text-align: center;
   }
 }
+.progress-bar {
+  width: 100%;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 15px; /* Adjust height as needed */
+}
+
+.progress-bar__fill {
+  background-color: #4caf50;
+  height: 100%;
+  width: 0;
+  border-radius: 10px;
+  transition: width 0.3s ease-in-out;
+}
+
 .studies {
   display: flex;
   flex-direction: column;

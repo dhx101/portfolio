@@ -9,8 +9,10 @@ const Project = () => {
 		<div className="projects">
 			<Header title="Proyectos"/>
 			<div className="projects__elements">
-				<h2>Ultimos Proyectos</h2>
-				<p>Visitas las ultimas web y proyectos en las que he trabajado</p>
+				<div>
+					<h2>Ultimos Proyectos</h2>
+					<p>Visitas las ultimas web y proyectos en las que he trabajado</p>
+				</div>
 				<ul className="projects__items">
 					{proyectoArray.map((item, index) => (
 						<SingleProject

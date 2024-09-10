@@ -1,0 +1,72 @@
+[
+	{
+		"name": "HTML",
+		"img": "stack/HTML.png",
+		"lv": 5
+	},
+	{
+		"name": "JavaSscript",
+		"img": "stack/JS.png",
+		"lv": 4
+	},
+	{
+		"name": "TypeScript",
+		"img": "stack/Typescript.png",
+		"lv": 4
+	},
+	{
+		"name": "CSS",
+		"img": "stack/CSS.png",
+		"lv": 4
+	},
+	{
+		"name": "SCSS",
+		"img": "stack/SCSS.png",
+		"lv": 4
+	},
+	{
+		"name": "React",
+		"img": "stack/React.png",
+		"lv": 4
+	},
+	{
+		"name": "Angular",
+		"img": "stack/Angular.png",
+		"lv": 3
+	},
+	{
+		"name": "Wordpress",
+		"img": "stack/Wordpress.png",
+		"lv": 5
+	},
+	{
+		"name": "Elementor",
+		"img": "stack/Elementor.png",
+		"lv": 5
+	},
+	{
+		"name": "Woocomerce",
+		"img": "stack/Woocomerce.png",
+		"lv": 4
+	},
+	{
+		"name": "Photoshop",
+		"img": "stack/Photoshop.png",
+		"lv": 3
+	},
+	{
+		"name": "PHP",
+		"img": "stack/PHP.png",
+		"lv": 2
+	},
+	{
+		"name": "MongoDB",
+		"img": "stack/MongoDB.svg",
+		"lv": 2
+	},
+	{
+		"name": "MySQL",
+		"img": "stack/MySQL.jpg",
+		"lv": 2
+	}
+]

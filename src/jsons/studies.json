@@ -4,9 +4,18 @@
 		"institution": "Upgrade Hub",
 		"img": "studies/Upgrade.webp",
 		"time": "2023 - 2024",
-		"description1": "Este Bootcamp de Desarrollo Web Full Stack en Upgrade Hub me permitió adquirir un conocimiento sólido y práctico de una amplia gama de tecnologías y herramientas utilizadas en el desarrollo web. A nivel de Front-End, me especialicé en el uso de HTML, CSS y JavaScript, trabajando con frameworks como React y Angular para crear interfaces de usuario dinámicas y eficientes. En cuanto al Back-End, aprendí a gestionar servidores y bases de datos, utilizando tecnologías como Node.js, MySQL y Mongoose, además de trabajar con lenguajes como PHP para desarrollar aplicaciones robustas.",
+		"description1": "Este Bootcamp de Desarrollo Web Full Stack en Upgrade Hub me permitió adquirir un conocimiento sólido y práctico de una amplia gama de tecnologías y herramientas utilizadas en el desarrollo web. A nivel de Front-End, me especialicé en el uso de HTML, CSS y JavaScript, trabajando con frameworks como React y Angular para crear interfaces de usuario dinámicas y eficientes. En cuanto al Back-End, aprendí a gestionar servidores y bases de datos, utilizando tecnologías como Node.js, MySQL y MongoDB, además de trabajar con lenguajes como PHP para desarrollar aplicaciones robustas.",
 		"description2": "Durante el curso, realicé varios proyectos grupales que me brindaron la oportunidad de aplicar lo aprendido en entornos colaborativos. Estos trabajos en equipo no solo me ayudaron a perfeccionar mis habilidades técnicas, sino también a entender la importancia de la comunicación y la coordinación en equipos multidisciplinarios. Al colaborar con mis compañeros, aprendí a aprovechar los puntos fuertes de cada miembro para lograr resultados más efectivos y desarrollar soluciones eficientes a problemas complejos.",
 		"description3": "Gracias a esta formación intensiva, ahora me siento preparado para enfrentar los desafíos del desarrollo web moderno, tanto en Front-End como en Back-End, y estoy entusiasmado por seguir creciendo como desarrollador en futuros proyectos."
+	},
+	{
+		"degree": "Curso Diseño UX",
+		"institution": "CENEC Málaga",
+		"img": "studies/CENEC.jpg",
+		"time": "2023 - 2023",
+		"description1": "Este curso de Diseño UX en CENEC Málaga me proporcionó un conocimiento profundo y práctico de los principios clave del diseño centrado en el usuario. A lo largo del programa, aprendí a diseñar experiencias de usuario intuitivas y atractivas, con un enfoque en la investigación de usuarios, la creación de wireframes, prototipos interactivos y la realización de pruebas de usabilidad.",
+		"description2": "Durante el curso, participé en varios proyectos colaborativos que me permitieron aplicar los conceptos de UX en entornos de trabajo reales. En estos proyectos, perfeccioné mis habilidades para realizar entrevistas con usuarios, definir user personas y crear flujos de interacción eficientes. Además, el trabajo en equipo me ayudó a comprender la importancia de la retroalimentación continua y la colaboración efectiva con otros diseñadores y desarrolladores para lograr un diseño centrado en el usuario.",
+		"description3": "Gracias a esta formación intensiva en CENEC Málaga, ahora estoy preparado para enfrentar los desafíos del diseño UX. Estoy motivado para seguir creciendo en este campo, creando productos digitales que no solo sean visualmente atractivos, sino también altamente funcionales y accesibles para los usuarios."
 	},
 	{
 		"degree": "Licenciatura em Comunicação Empresarial - Erasmus+",

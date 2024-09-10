@@ -1,5 +1,12 @@
 [
 	{
+		"name": "Portfolio/Curriculum Web",
+		"img": "Portfolio.png",
+		"alt": "Página web para mi Curriculum y Portfolio",
+		"miniDescription": "Web para mi mismo, donde he utilizado diferentes tecnologías como HTML, React, SCSS para crear una web donde mostrar mis proyectos en los que he trabajado y los conocimientos que tengo. El diseño simple es mio y la web ha sido maquetada a código.",
+		"stack": ["HTML", "SCSS","React", "Typescript"],
+		"link": "https://www.almoraimasoluciones.es/"
+	},{
 		"name": "Almoraima Soluciones",
 		"img": "Almoraima.png",
 		"alt": "Web Agencia de Marketing Digital Almoraima Soluciones",
