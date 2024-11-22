@@ -1,11 +1,25 @@
 [
 	{
+		"name": "Psicología Montse Coronado",
+		"img": "MontseCoronado.png",
+		"alt": "Página web para mi Curriculum y Portfolio",
+		"miniDescription": "Página web y comercio electrónico para la Psicóloga Montse Coronado, realizada con Wordpress, Elementor y la parte del comercio electrínico fue realizada con Woocomerce donde cuenta con varios productos y una pasarela de pago con una TPVV de un banco.",
+		"stack": ["Wordpress", "Elementor","Woocomerce"],
+		"link": "https://montsecoronado.com/"
+	},{
+		"name": "Fisio & Yoga Málaga",
+		"img": "FisioAndYoga.png",
+		"alt": "Página web y E-commerce de Fisio & Yoga",
+		"miniDescription": "Página web y comercio electrónico para la fisioterapeuta Gemma, realizada con Wordpress, Elementor y la parte del comercio electrínico fue realizada con Woocomerce donde cuenta con varios productos y una pasarela de pago con una TPVV de un banco.",
+		"stack": ["Wordpress", "Elementor","Woocomerce"],
+		"link": "https://www.fisioandyogamalaga.com/"
+	},{
 		"name": "Portfolio/Curriculum Web",
 		"img": "Portfolio.png",
 		"alt": "Página web para mi Curriculum y Portfolio",
 		"miniDescription": "Web para mi mismo, donde he utilizado diferentes tecnologías como HTML, React, SCSS para crear una web donde mostrar mis proyectos en los que he trabajado y los conocimientos que tengo. El diseño simple es mio y la web ha sido maquetada a código.",
 		"stack": ["HTML", "SCSS","React", "Typescript"],
-		"link": "https://www.almoraimasoluciones.es/"
+		"link": "https://dhx101.github.io/portfolio/"
 	},{
 		"name": "Almoraima Soluciones",
 		"img": "Almoraima.png",

@@ -15,11 +15,13 @@ const SingleProject: React.FC<ProjectProps> = ({ project, style }) => {
 		<li
 			className="projects__items__single"
 			style={style}>
-			<img
-				src={`projects/${project.img}`}
-				alt={project.alt}
-			/>
-			<div>
+			<div className="projects__items__single__img">
+				<img
+					src={`projects/${project.img}`}
+					alt={project.alt}
+				/>
+			</div>
+			<div className="projects__items__single__info">
 				<h3>{project.name}</h3>
 				<p>{project.miniDescription}</p>
 				<div>
@@ -38,7 +40,9 @@ const SingleProject: React.FC<ProjectProps> = ({ project, style }) => {
 						<p>No se ha especificado el Stack utilizado</p>
 					)}
 					{project.link ? (
-						<a href={project.link} target="_blank">
+						<a
+							href={project.link}
+							target="_blank">
 							<img
 								src="web.svg"
 								alt={`Visitar ${project.name}`}

@@ -157,7 +157,16 @@
   padding: 1rem;
   /* Hover effect */
 }
-.projects__items__single > div {
+.projects__items__single__img {
+  height: 100%;
+}
+.projects__items__single__img img {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 66%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 66%, rgba(0, 0, 0, 0) 100%);
+  border-radius: 1rem 1rem 0 0;
+}
+.projects__items__single__info {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -165,13 +174,13 @@
   gap: 10px;
   padding: 0 1rem;
 }
-.projects__items__single > div > div {
+.projects__items__single__info div {
   display: flex;
 }
-.projects__items__single > div > div p {
+.projects__items__single__info div p {
   white-space: nowrap;
 }
-.projects__items__single > div > div img {
+.projects__items__single__info div img {
   width: 25px;
 }
 .projects__items__single h3 {
@@ -184,13 +193,6 @@
   font-weight: 500;
   color: black;
   text-align: justify;
-}
-.projects__items__single > img {
-  width: 100%;
-  height: auto;
-  mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 66%, rgba(0, 0, 0, 0) 100%);
-  -webkit-mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 66%, rgba(0, 0, 0, 0) 100%);
-  border-radius: 1rem 1rem 0 0;
 }
 .projects__items__single ul {
   width: 100%;
