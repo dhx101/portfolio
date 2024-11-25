@@ -13,19 +13,19 @@ function App() {
 			<BrowserRouter>
 				<Routes>
 					<Route
-						path="/portfolio/"
+						path="/"
 						element={<Home />}
 					/>
 					<Route
-						path="/portfolio/proyectos"
+						path="/proyectos"
 						element={<Project />}
 					/>
 					<Route
-						path="/portfolio/experiencia"
+						path="/experiencia"
 						element={<Experiencia />}
 					/>
 					<Route
-						path="/portfolio/estudios"
+						path="/estudios"
 						element={<Estudios />}
 					/>
 				</Routes>

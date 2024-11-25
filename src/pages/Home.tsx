@@ -41,7 +41,7 @@ const Home = () => {
 						</a>
 					</li>
 					<li className="card__link__item">
-						<Link to={"/portfolio/proyectos"}>
+						<Link to={"/proyectos"}>
 							<img
 								src="projects.svg"
 								alt="Proyectos"
@@ -50,7 +50,7 @@ const Home = () => {
 						</Link>
 					</li>
 					<li className="card__link__item">
-						<Link to={"/portfolio/experiencia"}>
+						<Link to={"/experiencia"}>
 							<img
 								src="work.svg"
 								alt="Proyectos"
@@ -59,7 +59,7 @@ const Home = () => {
 						</Link>
 					</li>
 					<li className="card__link__item">
-						<Link to={"/portfolio/estudios"}>
+						<Link to={"/estudios"}>
 							<img
 								src="academy.svg"
 								alt="Proyectos"
