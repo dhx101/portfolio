@@ -45,6 +45,11 @@
 		"lv": 5
 	},
 	{
+		"name": "WPBakery",
+		"img": "stack/WPBakery.png",
+		"lv": 4
+	},
+	{
 		"name": "Woocomerce",
 		"img": "stack/Woocomerce.png",
 		"lv": 4
