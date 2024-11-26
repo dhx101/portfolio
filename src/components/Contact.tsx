@@ -7,7 +7,7 @@ const Contact = () => {
 						href="https://www.linkedin.com/in/dhuangxie/"
 						target="_blank">
 						<img
-							src="linkedin.svg"
+							src="icons/linkedin.svg"
 							alt="Linkedin"
 						/>
 					</a>
@@ -20,7 +20,7 @@ const Contact = () => {
 						className="contact__links--phone"
 						href="tel:655966777">
 						<img
-							src="phone.svg"
+							src="icons/phone.svg"
 							alt="Llámame al 655966777"
 						/>
 					</a>
@@ -31,7 +31,7 @@ const Contact = () => {
 						className="contact__links--email"
 						href="mailto:dhuangxie@gmail.com">
 						<img
-							src="email.svg"
+							src="icons/email.svg"
 							alt="Contacta conmigo a través de dhuangxie@gmail.com"
 						/>
 					</a>

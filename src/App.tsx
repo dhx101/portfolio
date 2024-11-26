@@ -6,11 +6,12 @@ import Home from "./pages/Home";
 import Project from "./pages/Proyectos";
 import Experiencia from "./pages/Experiencia";
 import Estudios from "./pages/Estudios";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
 	return (
 		<>
-			<BrowserRouter>
+			<BrowserRouter basename="/">
 				<Routes>
 					<Route
 						path="/"
@@ -27,6 +28,10 @@ function App() {
 					<Route
 						path="/estudios"
 						element={<Estudios />}
+					/>
+					<Route
+						path="*"
+						element={<PageNotFound />}
 					/>
 				</Routes>
 			</BrowserRouter>

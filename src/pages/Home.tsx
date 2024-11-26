@@ -1,8 +1,32 @@
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 const Home = () => {
 	return (
 		<div className="card">
+			<Helmet>
+				<title>David Huang Xie Desarrollador Web | SEO On Page | Wordpress</title>
+				<meta
+					name="viewport"
+					content="width=device-width, initial-scale=1.0"
+				/>
+				<meta
+					http-equiv="Content-Type"
+					content="text/html;charset=UTF-8"
+				/>
+				<meta
+					http-equiv="X-UA-Compatible"
+					content="ie=edge"
+				/>
+				<meta
+					name="keywords"
+					content="Desarrollador Web"
+				/>
+				<meta
+					name="description"
+					content="Soy David Huang Xie, Desarrollador web, apasionado por el SEO, Wordpress y la optimización de sitios web para mejorar su rendimiento y visibilidad en línea."
+				/>
+			</Helmet>
 			<div className="card__info">
 				<div>
 					<h1 className="card__h1">David Huang Xie</h1>
@@ -23,7 +47,7 @@ const Home = () => {
 							href="https://github.com/dhx101"
 							target="_blank">
 							<img
-								src="github.svg"
+								src="icons/github.svg"
 								alt="GitHub"
 							/>
 							<p>Github</p>
@@ -31,10 +55,10 @@ const Home = () => {
 					</li>
 					<li className="card__link__item">
 						<a
-							href="Curriculum ES.pdf"
+							href="David/Curriculum ES.pdf"
 							download={"CV David Huang Xie.pdf"}>
 							<img
-								src="resume.svg"
+								src="icons/resume.svg"
 								alt="Descargar Curriculum"
 							/>
 							<p>Curriculum</p>
@@ -43,7 +67,7 @@ const Home = () => {
 					<li className="card__link__item">
 						<Link to={"/proyectos"}>
 							<img
-								src="projects.svg"
+								src="icons/projects.svg"
 								alt="Proyectos"
 							/>
 							<p>Proyectos</p>
@@ -52,7 +76,7 @@ const Home = () => {
 					<li className="card__link__item">
 						<Link to={"/experiencia"}>
 							<img
-								src="work.svg"
+								src="icons/work.svg"
 								alt="Proyectos"
 							/>
 							<p>Experiencia</p>
@@ -61,7 +85,7 @@ const Home = () => {
 					<li className="card__link__item">
 						<Link to={"/estudios"}>
 							<img
-								src="academy.svg"
+								src="icons/academy.svg"
 								alt="Proyectos"
 							/>
 							<p>Estudios</p>
@@ -72,7 +96,7 @@ const Home = () => {
 			<div className="card__photo">
 				<img
 					className="card__photo__img"
-					src="david.png"
+					src="David/david.png"
 					alt="David Huang Xie"
 				/>
 			</div>

@@ -1,0 +1,15 @@
+
+# robots.txt para un sitio React
+User-agent: *
+Disallow: /static/
+Disallow: /private/
+Disallow: /config/
+
+# Permitir todo excepto las rutas específicas bloqueadas
+Allow: /
+
+# Bloquear parámetros específicos (si aplica)
+Disallow: /*?test=
+
+# Sitemap
+Sitemap: https://davidhuangxie.com/sitemap.xml
